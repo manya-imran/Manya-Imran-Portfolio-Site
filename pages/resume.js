@@ -7,9 +7,11 @@ import Socials from "../components/Socials";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
 // Data
-import { name, showResume } from "../data/portfolio.json";
-import { resume } from "../data/portfolio.json";
 import data from "../data/portfolio.json";
+const { name, showResume, resume } = data;
+//import { name, showResume } from "../data/portfolio.json";
+//import { resume } from "../data/portfolio.json";
+
 
 const Resume = () => {
   const router = useRouter();
