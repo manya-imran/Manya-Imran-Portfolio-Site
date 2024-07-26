@@ -1,1 +1,1 @@
-My portfolio in Next JS demonstrating my skills and services
+Manya Imran portfolio in Next JS demonstrating my skills and services

@@ -97,7 +97,7 @@ export default function Home() {
             <div className="relative group">
               <img 
                 src="/prog_pic.jpeg" 
-                alt="Description of image" 
+                alt="Manya Imran" 
                 className="rounded-full shadow-lg max-w-full h-auto w-80 h-80 transition-transform duration-500 transform group-hover:scale-110 group-hover:rotate-6"
               />
               <div className="absolute inset-0 rounded-full border-4 border-white transition-all duration-500 group-hover:border-blue-500 group-hover:shadow-blue-500 group-hover:shadow-md"></div>

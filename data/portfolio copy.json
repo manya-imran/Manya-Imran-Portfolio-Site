@@ -1,126 +1,188 @@
 {
-  "name": "Chetan",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Chetan Verma - curious",
-  "headerTaglineThree": "designer and devloper",
-  "headerTaglineFour": " based in New Delhi, India.",
+  "home": "Home",
+  "name": "Manya Imran",
+  "headerTaglineOne": "Hi, I'm Manya Imran ",
+  "headerTaglineTwo": "",
+  "headerTaglineThree": "Software Developer and AI/ML Engineer",
+  "headerTaglineFour": "Islamabad, Pakistan",
+  "headerTaglineFive": "manya.imran01@gmail.com",
+  "showCursor": false,
   "showBlog": true,
   "darkMode": true,
+  "showResume": true,
   "socials": [
     {
       "id": "1",
       "title": "Github",
-      "link": "https://github.com/chetanverma16"
+      "link": "https://github.com/manya-imran"
     },
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
+      "link": "https://www.linkedin.com/in/manya-imran-510441226/"
     },
     {
       "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
+      "title": "Blog",
+      "link": "https://www.educative.io/profile/view/6489339120582656"
     },
-    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
-    { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
+    {
+      "id": "4",
+      "title": "Email",
+      "link": "manya.imran01@gmail.com"
+    },
+    {
+      "id": "5",
+      "title": "Photograpghy",
+      "link": "https://vsco.co/manyaa-/gallery"
+    }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Unleashing the Power of AI with OpenAI’s GPT-3",
+      "description": "Generative AI, Python, OpenAI, Transformers, Python, Java, GoLang, StreamLit, Docker, DockerHub : Created prompt engineering modules to test the fine-tuned OpenAI LLM. Explored the OpenAI API in external environments to test Natural Language Processing tasks like named-entity recognition, text summarization, and tokenization",
+      "imageSrc": "https://www.educative.io/cdn-cgi/image/format=auto,width=1200,quality=50/v2api/collection/10370001/4555219505643520/image/4913450469949440",
+      "url": "https://github.com/manya-imran/Generative-Pre-trained-Transformers"
     },
     {
       "id": "2",
-      "title": "Project Two",
-      "description": "Web Development",
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Medical Images Anomaly Detection PyTorch/Tensorflow",
+      "description": "Machine Learning, Python, Matplotlib, CNN, ResNet, PyTorch, Tensorflow: Developed a project that builds neural networks to detect anomaly in anomalies in cell images of malaria patients that led to 98% accuracy",
+      "imageSrc": "https://www.shutterstock.com/image-photo/hand-touching-anomaly-warning-icon-600nw-2355147813.jpg",
+      "url": "https://github.com/manya-imran/Medical-Images-Anomaly-Detection-PyTorch-Tensorflow"
     },
     {
       "id": "3",
-      "title": "Project Three",
-      "description": "Design",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "LLM-powered Chat Assistant using RAG",
+      "description": "Machine Learning, Python, Chatbot, RAG, Vector Stores, Embeddings, Agents: Leveraged the Retrieval Augmented Generation (RAG) to create a chat assistant to inquire the company documentation and policies enhancing user interaction by 25%",
+      "imageSrc": "https://media.licdn.com/dms/image/D4D12AQGkHY89zhGDZA/article-cover_image-shrink_720_1280/0/1691431976579?e=2147483647&v=beta&t=lgk0jF-6kju4RyG68tF_4cxZklJqF3rtXrbQEcEYX7c",
+      "url": "https://github.com/manya-imran/LLM-powered-Chat-Assistant-using-RAG"
     },
     {
       "id": "4",
-      "title": "Project Four",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Website Traffic Analysis using Machine Learning",
+      "description": "Machine Learning, Python, SARIMA, Seasonal Forecasting, Correlation: Leveraged the use of seasonal decompose and SARIMAX model to predict the traffic on website",
+      "imageSrc": "https://www.travelpayouts.com/blog/wp-content/uploads/2020/06/statistic-google.jpg",
+      "url": "https://github.com/manya-imran/Website-Traffic-Analysis-using-Machine-Learning"
     },
     {
       "id": "5",
-      "title": "Project Five",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "BrilliantPro - Corporate training LMS",
+      "description": "Developed a MERN application providing dynamic front-end interfaces enabling effective learner management. The application provides real-time changes to the user interface and efficient backend logic integration to minimize response time by 86%",
+      "imageSrc": "https://www.scnsoft.com/_default_upload_bucket/lms-software-overview.png",
+      "url": "https://github.com/manya-imran/BrilliantPro-Corporate-training-LMS-MERN"
     },
     {
       "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Book Recommendation System",
+      "description": "Machine Learning, Python, TF-IDF, Cosine Similarity, Plotly: Leveraged the use of vectorizer and cosine similarity function to recommend books on user preferences",
+      "imageSrc": "https://media.licdn.com/dms/image/C4E12AQGZXG-omsKv3g/article-cover_image-shrink_720_1280/0/1597499469493?e=2147483647&v=beta&t=QMg5FypP7FDW4wKoSaIEQnI34DeVM1NMO-uMyZ24kt0",
+      "url": "https://github.com/manya-imran/Book-Reccomendation-System-using-Machine-Learning-in-Python"
     }
   ],
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "AI/ML Development",
+      "description": "I design and develop scalable and robust solution to machine learning problems using artificial intelligence algorithms and dats scirnce techniques."
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "Software Design and Development",
+      "description": "I design and develop web applications having great user experience, aesthetic visuals, strong responsiveness and boosts user engagement."
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "Event Management",
+      "description": "I lead teams to conduct events like workshops, hackathons, seminars and webinars to raise awareness on the new trends in the tech world"
     },
     {
       "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "Technical Documentation",
+      "description": "I use industry-standards to maintain the documentation for projects created, use advanced architectural diagrams and designs to document the procedure."
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "Skilled and experienced Software Developer with 1.5 years experience of AI/ML development, Python Development, Web Development, API Development, and Full stack development. My research is in large language models, Generative models, and Transformers.I work on LLMs, BERT, transformers, attention mechanisms, sequence-to-sequence architecture, and interpretability in Machine Learning. I work with prompt engineering modules to test the fine-tuned OpenAI LLM. Exploring OpenAI capabilities in Natural Language Processing tasks like named-entity recognition, text summarization, and tokenization. \n I create Full-stack applications with the backend focused on AI and an easy-to-use frontend.",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer, and maker.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "tagline": "Hi, I'm a Software Developer with focus on AI/ML and Full-stack development",
+    "description": "Skilled and experienced Software Developer with 1.5 years experience of AI/ML development, Python Development, Web Development, API Development, and Full stack development.",
     "experiences": [
       {
         "id": "1",
-        "dates": "March 2022 - Present",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": [
-          "Worked on the frontend of a React application",
-          "Worked on the frontend of a React application"
-        ]
+        "dates": "July 2023 - Present",
+        "type": "Full Time - Islamabad, Pakistan",
+        "position": "AI/ML Engineer at Educative, Inc",
+        "bullets": "Creating 4 Prompt Engineering projects with OpenAI API integration (Python-Java-Streamlit-and Go) that contributed to increase traffic by 55% to the GenAI vertical over a six month period, Researched and developed 15 Artificial Intelligence and Machine Learning projects including mask detection achieving 98% accuracy rate and LLM-powered RAG chat assistant having 99% accuracy rate, Contributed 48 articles on deep learning and secure coding generating up to 91.6k SEO volume that lead to a 40% increase in website traffic and user engagement"
       },
       {
-        "id": "2",
-        "dates": "March 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": ["Worked on the frontend of a React application"]
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "Jan 2023 - July 2023",
+        "type": "Part Time - Islamabad, Pakistan",
+        "position": "Full Stack Developer at Protect Lab",
+        "bullets": "Created a scalable Learning Management System for safeguarding internet usage for banks and intelligence agencies using a series of 10 simulation labs improving cybersecurity training efficiency by 30%, Successfully presented 12 robust and responsive labs that used API to fetch data from servers with real-time data syncing and representation on the web application - to 10 clients on a monthly basis, Created 8-10 full-stack projects that led to 70% increase in user engagement and system performance"
+      },
+      {
+          "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+          "dates": "Oct 2021 - May 2023",
+          "type": "Part Time - Islamabad, Pakistan",
+          "position": "Teaching Assistant  at National University of Computer and Emerging Sciences",
+          "bullets": "Structured courses and assessment for 4 courses with 100 students each achieving a 95% of student satisfaction, Assisted the professors in conducting research leading to 45% increase in research efficiency"
+      },
+      {
+          "id": "d495c23b-4f65-479a-9b8a-cfbc1c089705",
+          "dates": "July 2022 - Oct 2022",
+          "type": "Full Time - Dubai UAE, Remote",
+          "position": "Cyber Defense and Network Security - Apprenticeship at ThincsCorp",
+          "bullets": "Completed SOC activities of monitoring-threat detection-triggers generation and mitigation, CVE identification was also performed and reported that reduced threat response time by 40%"
       }
     ],
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityName": "FAST National University of Computer and Emerging Sciences",
+      "universityDate": "2019-2023",
+      "universityPara": "Bachelor of Cybersecurity, 1st | Grade: 3.49 | Dissertation: SecureWatch: a Security Training Platform | Awards: Silver Medal (III, IV), Dean’s List of Honors Inscription (III, IV, V, VIII) "
     },
-    "languages": ["Javascript", "b", "CSS", "Python"],
-    "frameworks": ["React", "Typescript", "NodeJs"],
-    "others": ["Figma", "AdobeXD", "AWS"]
+    "languages": [
+      "Python",
+      "C/C++",
+      "SQL",
+      "JavaScript",
+      "HTML/CSS",
+      "C#",
+      "Go",
+      "Solidity",
+      "Java"
+    ],
+    "frameworks": [
+      "React JS",
+      "Node JS",
+      "RESTAPI",
+      "Express JS",
+      "Bootstrap",
+      "PyTorch",
+      "Tensorflow",
+      "FastAPI",
+      "Flask"
+    ],
+    "developer_tools": [
+      "Git",
+      "AWS",
+      "Visual Studio",
+      "Google Colab",
+      "Kali Linux",
+      "Docker",
+      "DockerHub",
+      "GitHub"
+    ],
+    "libraries": [
+      "Scikit Learn",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "OpenAI",
+      "NLTK",
+      "LangChain"
+    ]
   }
 }
