@@ -204,10 +204,10 @@ const Edit = () => {
         {currentTabs === "HEADER" && (
           <div className="mt-10">
             <div className="flex items-center">
-              <label className="w-1/5 text-lg opacity-50">Home</label>
+              <label className="w-1/5 text-lg opacity-50">Name</label>
               <input
-                value={home}
-                onChange={(e) => setData({ ...data, home: e.target.value })}
+                value={data.name}
+                onChange={(e) => setData({ ...data, name: e.target.value })}
                 className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
                 type="text"
               ></input>
