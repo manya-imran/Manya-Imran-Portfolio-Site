@@ -49,11 +49,13 @@ export default function Home() {
   }, []);
 
   return (
+    
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
       </Head>
+      
 
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
@@ -63,7 +65,51 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10 flex">
+       <div className="flex flex-col laptop:flex-row laptop:mt-20 mt-10">
+        <div className="laptop:w-1/4 flex justify-center items-center order-1 laptop:order-2 mt-5 laptop:mt-0">
+          <div className="relative group">
+            <img 
+              src="/prog_pic.jpeg" 
+              alt="Manya Imran" 
+              className="rounded-full shadow-lg max-w-full h-auto w-80 h-80 transition-transform duration-500 transform group-hover:scale-110 group-hover:rotate-6"
+            />
+            <div className="absolute inset-0 rounded-full border-4 border-white transition-all duration-500 group-hover:border-blue-500 group-hover:shadow-blue-500 group-hover:shadow-md"></div>
+          </div>
+        </div>
+
+        <div className="laptop:w-3/4 order-2 laptop:order-1">
+          <div className="mt-5">
+            <h1
+              ref={textOne}
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+            >
+              {data.headerTaglineOne}
+            </h1>
+            <h3
+              ref={textTwo}
+              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+            >
+              {data.headerTaglineTwo}
+            </h3>
+            <h3
+              ref={textThree}
+              className="text-xl tablet:text-3xl laptop:text-3xl laptopl:text-4xl p-1 tablet:p-1 text-bold w-full laptop:w-3/5"
+            >
+              {data.headerTaglineThree}
+            </h3>
+            <h3
+              ref={textFour}
+              className="text-xl tablet:text-3xl laptop:text-3xl laptopl:text-4xl p-1 tablet:p-1 text-bold w-full laptop:w-3/5"
+            >
+              {data.headerTaglineFour}
+            </h3>
+          </div>
+          <Socials className="mt-2 laptop:mt-5" />
+        </div>
+      </div>
+
+
+        {/* <div className="laptop:mt-20 mt-10 flex">
           <div className="w-3/4">
             <div className="mt-5">
               <h1
@@ -93,7 +139,7 @@ export default function Home() {
             </div>
             <Socials className="mt-2 laptop:mt-5" />
           </div>
-          <div className="w-1/4 flex justify-center items-center ml-[-3cm]">
+          {/* <div className="w-1/4 flex justify-center items-center ml-[-3cm]">
             <div className="relative group">
               <img 
                 src="/prog_pic.jpeg" 
@@ -102,9 +148,17 @@ export default function Home() {
               />
               <div className="absolute inset-0 rounded-full border-4 border-white transition-all duration-500 group-hover:border-blue-500 group-hover:shadow-blue-500 group-hover:shadow-md"></div>
             </div>
+          </div> 
+          <div className="relative group hidden sm:block">
+            <img 
+              src="/prog_pic.jpeg" 
+              alt="Manya Imran" 
+              className="rounded-full shadow-lg max-w-full h-auto w-80 h-80 transition-transform duration-500 transform group-hover:scale-110 group-hover:rotate-6"
+            />
+            <div className="absolute inset-0 rounded-full border-4 border-white transition-all duration-500 group-hover:border-blue-500 group-hover:shadow-blue-500 group-hover:shadow-md"></div>
           </div>
          
-        </div>
+        </div> */}
 
         {/* <div className="laptop:mt-20 mt-10 flex">
           <div className="mt-5">
